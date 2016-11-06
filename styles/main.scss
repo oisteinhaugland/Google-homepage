@@ -6,16 +6,6 @@ $nav-color: #000;
 $nav-font:arial,sans-serif;;
 
 
-div {
-	width:80%;
-	
-	margin:0 auto;
-	background:#8B8BEF;
-
-}
-
-
-
 /*********************
 NAVIGATION
 *********************/
@@ -46,3 +36,59 @@ nav  {
 		}
 	}	
 }
+
+/*********************
+MAIN SECTION
+*********************/
+
+body {
+	height:100vh;
+}
+#mainwrapper{
+	position:relative;
+	top:30%;
+	clear:both;
+	width:100%;
+}
+
+#main {
+	width:50%;
+	background: green;
+	margin:0 auto;
+	display:block;
+}
+
+#logo {
+	margin:0 auto;
+	background-size: 272px 92px;
+	height: 92px;
+	width: 272px;
+	background-image: url("../images/google.png");
+}
+
+
+#myInput{
+	width:75%;
+	margin-left :12.5%;	
+	display: inline-block;
+}
+#btns {
+	margin-top:10px;
+}
+#myBtn {
+	margin-left :33%;
+}
+
+
+.fa-keyboard-o{
+	position:relative;
+	left:-30px;
+}
+
+
+
+
+
+
+
+

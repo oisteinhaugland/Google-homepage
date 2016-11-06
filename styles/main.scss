@@ -1,3 +1,11 @@
+/*********************
+VARIABLES
+*********************/
+
+$nav-color: #000;
+$nav-font:arial,sans-serif;;
+
+
 div {
 	width:80%;
 	
@@ -6,3 +14,35 @@ div {
 
 }
 
+
+
+/*********************
+NAVIGATION
+*********************/
+
+
+nav  {
+	background: red;
+	ul {	
+		float:right;
+		list-style:none;
+		display:flex;
+
+		li {
+			a {
+			font-family: $nav-font;
+			font-size:13px;
+			opacity:0.75;
+			 padding:10px;
+			 display:block;
+			 text-decoration:none;
+			 color:$nav-color;
+			 &:hover {
+				text-decoration:underline;
+
+				}
+			
+			}
+		}
+	}	
+}

@@ -1,6 +1,29 @@
+/*********************
+VARIABLES
+*********************/
 div {
   width: 80%;
   margin: 0 auto;
   background: #8B8BEF; }
+
+/*********************
+NAVIGATION
+*********************/
+nav {
+  background: red; }
+  nav ul {
+    float: right;
+    list-style: none;
+    display: flex; }
+    nav ul li a {
+      font-family: arial, sans-serif;
+      font-size: 13px;
+      opacity: 0.75;
+      padding: 10px;
+      display: block;
+      text-decoration: none;
+      color: #000; }
+      nav ul li a:hover {
+        text-decoration: underline; }
 
 /*# sourceMappingURL=main.css.map */

@@ -112,8 +112,6 @@ body {
 }
 
 #main {
-	width:50%;
-	
 	margin:0 auto;
 	display:block;
 }
@@ -128,55 +126,64 @@ body {
 
 
 #myInput{
-	width:90%;
-	margin-left :5%;
+	width:45%;
+	margin-left:27.5%;
 	margin-top:25px;
 	margin-bottom:25px;
 	display: inline-block;
 	line-height:2em;
 	outline:none;
 	border:1px solid #B9B9B9;
-	
+	display:inline;
 
 	&:focus {
 	border:1px solid #4D90FE;
 	}
 
 }
+
+
+.fa-keyboard-o{
+	position:relative;
+	display:inline;
+	left:-30px;
+	color:grey;
+}
 #btns {
+	width:100%;
+	
 	margin-top:10px;
-	margin-left:-20px;
+	text-align:center;
+	display:block;
+
 	input {
 		border:none;
 		padding:12px 18px;
-		margin-right:15px;
 	    	background-color: #f2f2f2;
     		border: 1px solid #f2f2f2;
     		color: #757575;
     		font-family: arial, sans-serif;
     		font-size: 13px;
     		font-weight: bold;
-
-
+    		outline:none;
+		border:1px solid #B9B9B9;
+	
     		&:hover {
 		border: 1px solid #c6c6c6;
     		box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     		color: #222;	
-    		};
+    		}
+    		&:focus {
+		border:1px solid #4D90FE;
+		color: #222;
+		}
 
 	}
 
 }
-#myBtn {
-	margin-left :33%;
-}
 
 
-.fa-keyboard-o{
-	position:relative;
-	left:-30px;
-	color:grey;
-}
+
 
 
 
@@ -187,11 +194,10 @@ footer {
     background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
     line-height: 40px;
-    min-width: 980px;
     position: absolute;
     bottom:0;
-    left:0;
-    right:0;
+    width:100%;
+    
    
 
     ul {
@@ -222,5 +228,29 @@ footer {
 }
 
 
+
+
+
+/*********************
+MEDIA QUERIES
+*********************/
+@media screen and (max-width: 680px) {
+   #myBtn {
+	margin-left:0;
+	}
+
+#myInput{
+	width:90%;
+	margin-left:5%;	
+	}
+
+	#left {
+	float:left;
+}
+
+#right {
+	float:left;
+}
+}
 
 

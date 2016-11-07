@@ -128,15 +128,13 @@ body {
     font-family: arial, sans-serif;
     font-size: 13px;
     font-weight: bold;
-    outline: none;
-    border: 1px solid #B9B9B9; }
+    outline: none; }
     #btns input:hover {
       border: 1px solid #c6c6c6;
       box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
       color: #222; }
     #btns input:focus {
-      border: 1px solid #4D90FE;
-      color: #222; }
+      border: 1px solid #4D90FE; }
 
 /*********************
 FOOTER

@@ -198,4 +198,23 @@ RESULTS
       padding: 5px 0 2.5px 0;
       margin: 10px 0 0 0; }
 
+#next {
+  margin-top: 1%;
+  margin-left: 10%;
+  display: block; }
+
+/***************************************
+FOOTER
+**************************************/
+footer {
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  margin-top: 15px;
+  line-height: 40px;
+  min-width: 980px;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: 100%; }
+
 /*# sourceMappingURL=main.css.map */

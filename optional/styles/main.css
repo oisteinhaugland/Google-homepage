@@ -5,12 +5,15 @@ VARIABLES
 NAVIGATION
 **************************************/
 #glogo {
+  background-image: url(../images/navlogo.png);
+  background-repeat: no-repeat;
+  background-position: -24.5px 10px;
   border: 0;
+  height: 50px;
+  width: 115px;
   display: block;
-  height: 37px;
-  width: 95px;
   overflow: hidden;
-  position: relative; }
+  margin-left: -12.5px; }
 
 .left {
   padding: 0 0  0 20px;
@@ -50,7 +53,8 @@ NAVIGATION
   width: 560px;
   display: inline-block;
   margin-top: 10px;
-  margin-left: 25px;
+  margin-left: 10px;
+  padding-left: 7.5px;
   line-height: 2em;
   outline: none;
   border: 1px solid #B9B9B9;
@@ -151,7 +155,7 @@ body {
     float: left;
     list-style: none;
     display: flex;
-    margin-left: 7.5%; }
+    margin-left: 7%; }
     #resultBar ul li a {
       font-family: arial, sans-serif;
       font-size: 13px;
@@ -174,7 +178,11 @@ RESULTS
 **************************************/
 /*div>(h3>a)+a.greenLink+p*/
 #results {
+  margin-top: 20px;
   display: block; }
+  #results small {
+    margin-left: 10%;
+    color: grey; }
   #results div {
     display: block;
     width: 616px;
@@ -211,7 +219,6 @@ footer {
   border-top: 1px solid #e4e4e4;
   margin-top: 15px;
   line-height: 40px;
-  min-width: 980px;
   left: 0;
   right: 0;
   height: 50px;

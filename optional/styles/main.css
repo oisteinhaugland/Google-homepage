@@ -150,7 +150,8 @@ body {
 
 #resultBar {
   height: 50px;
-  width: 100%; }
+  width: 100%;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.1); }
   #resultBar ul {
     float: left;
     list-style: none;
@@ -169,6 +170,7 @@ body {
         color: black; }
 
 .selected {
+  padding-bottom: 14px !important;
   border-bottom: 3px solid #4285f4;
   color: #4285f4;
   font-weight: bold; }
@@ -214,6 +216,38 @@ RESULTS
 /***************************************
 FOOTER
 **************************************/
+#rightCaret {
+  font-size: 45px;
+  font-weight: normal;
+  padding-left: 15px;
+  position: relative;
+  bottom: 8px; }
+  #rightCaret a {
+    text-decoration: none;
+    color: #4285f4; }
+
+#next {
+  width: 33%;
+  margin: 25px auto; }
+  #next ul {
+    list-style: none;
+    display: flex; }
+    #next ul li:last-child {
+      margin-left: 50px; }
+    #next ul li:first-child a {
+      color: black; }
+    #next ul a {
+      color: #4285f4;
+      font-weight: normal;
+      margin: 0px 7px 0px 7px;
+      text-decoration: none;
+      font-size: 13px; }
+      #next ul a:hover {
+        text-decoration: underline; }
+
+#bottomLogo {
+  margin: 5px 0px; }
+
 footer {
   background: #f2f2f2;
   border-top: 1px solid #e4e4e4;
@@ -223,5 +257,20 @@ footer {
   right: 0;
   height: 50px;
   width: 100%; }
+  footer ul {
+    list-style: none;
+    display: flex;
+    margin-right: 15px; }
+    footer ul li a {
+      font-family: arial, sans-serif;
+      font-size: 13px;
+      opacity: 0.75;
+      padding: 5px;
+      margin-right: 20px;
+      display: block;
+      text-decoration: none;
+      color: #666666; }
+      footer ul li a:hover {
+        color: #000; }
 
 /*# sourceMappingURL=main.css.map */
